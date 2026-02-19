@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-02-19T08:42:18.805253",
+  "total_tests": 2,
+  "passed": 2,
+  "failed": 0,
+  "skipped": 0,
+  "errors": 0,
+  "results": [
+    {
+      "name": "lesson_1",
+      "status": "passed",
+      "message": "All 2 statements executed successfully.",
+      "details": [
+        "Statement 1: Executed successfully",
+        "Statement 2: Executed successfully"
+      ]
+    },
+    {
+      "name": "lesson_2",
+      "status": "passed",
+      "message": "All 2 statements executed successfully.",
+      "details": [
+        "Statement 1: Executed successfully",
+        "Statement 2: Executed successfully"
+      ]
+    }
+  ]
+}

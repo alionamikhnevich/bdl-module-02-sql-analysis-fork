@@ -37,7 +37,7 @@ def setup_database():
     import os
     conn = sqlite3.connect(':memory:')
     
-    data_dir = Path(os.path.join(os.getcwd(), 'homework/data'))
+    data_dir = Path(os.path.join(os.getcwd(), 'data'))
     if data_dir.exists():
         for csv_file in data_dir.glob('*.csv'):
             table_name = csv_file.stem
@@ -79,7 +79,7 @@ def validate_sql_execution(sql_content, conn):
 def check_lesson_files():
     """Check all lesson files."""
     import os
-    homework_dir = Path(os.path.join(os.getcwd(), 'homework'))
+    homework_dir = Path(os.getcwd())
     test_results = []
     
     # Find student solutions
